@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D41A41262C7A0EF01EFC957C1AA43A6 /* TCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6958DBC589F018862AEA59B8931FDB9 /* TCommon-dummy.m */; };
 		13F1F1B3B56CA3FA5EEAE3A581248FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		16143C7A8DC8AD7327B216E215BAC277 /* TCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3DD25ADF1FE22CFA63238DF05A03F8 /* TCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		416ABE6314C6B3EE161F18072B67287B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		44EE27F286A80E21560E86B6D644F97D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		91397FD720EA5378004017B1 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91397FD520EA5378004017B1 /* PhotoManager.m */; };
-		91397FD820EA5378004017B1 /* PhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91397FD620EA5378004017B1 /* PhotoManager.h */; };
 		BAD5303D3B3FFB677D2039976005B0D5 /* Pods-TCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F65F1D570E610B10978EE29811FEEC2B /* Pods-TCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE61EDCAF81A5CC6534E3FE72EADC9D4 /* PhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 17548AD335FC7A30FFAE81B406ABF9D7 /* PhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5B83382BAF03EBCBFFD3ADFD2CAB560 /* Pods-TCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6CEE792E0F07AC400A3AEC080855B7 /* Pods-TCommon_Tests-dummy.m */; };
+		D23EE15872378B353F156677FF90C8A1 /* TCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD9055125A5C247477D4A6E93C18231 /* TCommon-dummy.m */; };
+		D429A6DE1538F25C99303FC5FBDEF744 /* TCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C71CB36840366D9E09229BF30D8680 /* TCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3F90DB2CB7F0DE27DC97BF91BE8703A /* Pods-TCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B9CDEC867E9AB88CAA80D5A495F67C /* Pods-TCommon_Example-dummy.m */; };
+		E973C824B5D129F158DC991C2660C7C4 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ACB649690741EA3C156D5C430FCB70 /* PhotoManager.m */; };
 		F4EA54848B3783E6A788A916F8275744 /* Pods-TCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2EED58C80EE5836C11B1D70124202F /* Pods-TCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,38 +32,38 @@
 
 /* Begin PBXFileReference section */
 		11DB2FCDEBAD1EDDF20D0610F1EB069F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B3DD25ADF1FE22CFA63238DF05A03F8 /* TCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCommon-umbrella.h"; sourceTree = "<group>"; };
-		1D5B3D580505F13F60452EF4362E6400 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		17548AD335FC7A30FFAE81B406ABF9D7 /* PhotoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoManager.h; path = TCommon/Classes/PhotoManager.h; sourceTree = "<group>"; };
 		205C8179C75C29F6F03F53B9A219993B /* Pods-TCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		30EA6274AABDD2EBCB1021D3A0D9089D /* Pods_TCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F3907301C76A2C627B60AA532F42A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2AD9055125A5C247477D4A6E93C18231 /* TCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCommon-dummy.m"; sourceTree = "<group>"; };
+		30EA6274AABDD2EBCB1021D3A0D9089D /* Pods_TCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCommon_Example.framework; path = "Pods-TCommon_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		318D1A508D9E65A724F785D5E182555D /* Pods-TCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EF8506EECE556378B1FAA1EEF06C6E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B6BCF08266C11ED26C8AF53560ADB5 /* Pods-TCommon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCommon_Example-frameworks.sh"; sourceTree = "<group>"; };
-		545E468419A233E40AB4CBFA03D2D085 /* TCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCommon-prefix.pch"; sourceTree = "<group>"; };
+		531D861CA4EDBE9D55EF6EEA4FDDC248 /* TCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCommon.modulemap; sourceTree = "<group>"; };
 		587202A25369CDA3DAC47CECE1CC8558 /* Pods-TCommon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCommon_Example-resources.sh"; sourceTree = "<group>"; };
-		5F2D10D56DAFB4A3E823C2BB7721E824 /* TCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59ACB649690741EA3C156D5C430FCB70 /* PhotoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoManager.m; path = TCommon/Classes/PhotoManager.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E325DB8F4E0C63849EBCAA48AE853F5 /* Pods-TCommon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCommon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FF775FF1FA64EABFE0BE099311FE328 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		77D2AA227426B0E0EC34A64537EC8C13 /* TCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCommon.modulemap; sourceTree = "<group>"; };
+		72C71CB36840366D9E09229BF30D8680 /* TCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCommon-umbrella.h"; sourceTree = "<group>"; };
 		7AF3CD400B0FE94ECC4C5E48A7D24BC5 /* Pods-TCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		85AD51C5EC88463D45D4C060109A1336 /* Pods-TCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCommon_Example.modulemap"; sourceTree = "<group>"; };
-		91397FD520EA5378004017B1 /* PhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoManager.m; path = TCommon/Classes/PhotoManager.m; sourceTree = "<group>"; };
-		91397FD620EA5378004017B1 /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoManager.h; path = TCommon/Classes/PhotoManager.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94EDE0365D8B8AFC8532F65837E26DCD /* TCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCommon.xcconfig; sourceTree = "<group>"; };
-		A6958DBC589F018862AEA59B8931FDB9 /* TCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCommon-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FB34EC74AE05F84703874BD2E9EC1 /* TCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCommon.xcconfig; sourceTree = "<group>"; };
+		A7DDB0DFB991EE720740A6B369AA976D /* TCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCommon-prefix.pch"; sourceTree = "<group>"; };
 		AD2EED58C80EE5836C11B1D70124202F /* Pods-TCommon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCommon_Example-umbrella.h"; sourceTree = "<group>"; };
 		ADE941B2A954826A6F0BE705BD6FA644 /* Pods-TCommon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCommon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AF395F1090843C68E38885EB686AE269 /* Pods_TCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF395F1090843C68E38885EB686AE269 /* Pods_TCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCommon_Tests.framework; path = "Pods-TCommon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F394606E0E0DDDDB1A6F94E1DFBDAF /* Pods-TCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD855096D514417384A618F5AE639AF0 /* TCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD855096D514417384A618F5AE639AF0 /* TCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCommon.framework; path = TCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E75F20A96DA46C22B4384A3E607711 /* Pods-TCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C50903F46D2C55B53084F2A1D3453A5A /* Pods-TCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C9B9CDEC867E9AB88CAA80D5A495F67C /* Pods-TCommon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCommon_Example-dummy.m"; sourceTree = "<group>"; };
-		D44C905D7C00583A97ADBF04D2157872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC09DBABB841FB20CFA103A6E1182F3 /* Pods-TCommon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCommon_Tests-resources.sh"; sourceTree = "<group>"; };
 		E06E1C55BFB0A3B41FF33F119F7B7797 /* Pods-TCommon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCommon_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E2E3D79177BA7B8160281E285F65B5C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EB6CEE792E0F07AC400A3AEC080855B7 /* Pods-TCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCommon_Tests-dummy.m"; sourceTree = "<group>"; };
+		EC4EC9B882C62D9CAED00A673FFA1D65 /* TCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F136976F714FC2A25756CE71739C9BC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5118BFAEAF6010094A97766B3D6CC80 /* Pods-TCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCommon_Tests.modulemap"; sourceTree = "<group>"; };
 		F65F1D570E610B10978EE29811FEEC2B /* Pods-TCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -97,18 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0770D3F198C158809D6C0E82EFD5D253 /* TCommon */ = {
-			isa = PBXGroup;
-			children = (
-				91397FD620EA5378004017B1 /* PhotoManager.h */,
-				91397FD520EA5378004017B1 /* PhotoManager.m */,
-				8F0B8DC81D024C6173B1187E3BE7DEAC /* Pod */,
-				29AC790851DA422AF8642522FCBC75C8 /* Support Files */,
-			);
-			name = TCommon;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0783586620920654796FD094534E9424 /* Pods-TCommon_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,18 +115,12 @@
 			path = "Target Support Files/Pods-TCommon_Example";
 			sourceTree = "<group>";
 		};
-		29AC790851DA422AF8642522FCBC75C8 /* Support Files */ = {
+		1A68C3C2047E1918805E7C6FE5C25D9A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D44C905D7C00583A97ADBF04D2157872 /* Info.plist */,
-				77D2AA227426B0E0EC34A64537EC8C13 /* TCommon.modulemap */,
-				94EDE0365D8B8AFC8532F65837E26DCD /* TCommon.xcconfig */,
-				A6958DBC589F018862AEA59B8931FDB9 /* TCommon-dummy.m */,
-				545E468419A233E40AB4CBFA03D2D085 /* TCommon-prefix.pch */,
-				1B3DD25ADF1FE22CFA63238DF05A03F8 /* TCommon-umbrella.h */,
+				7153BA5DBCEA6734BC6722F57C3141F2 /* TCommon */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TCommon";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3C6D0C57409781204381E08A51BDBD0C /* Targets Support Files */ = {
@@ -150,31 +132,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3CF561C4F709970A7E6B3518D6A67B84 /* Development Pods */ = {
+		7153BA5DBCEA6734BC6722F57C3141F2 /* TCommon */ = {
 			isa = PBXGroup;
 			children = (
-				0770D3F198C158809D6C0E82EFD5D253 /* TCommon */,
+				17548AD335FC7A30FFAE81B406ABF9D7 /* PhotoManager.h */,
+				59ACB649690741EA3C156D5C430FCB70 /* PhotoManager.m */,
+				8CAACFF1F60AF15A403D60DB55523599 /* Pod */,
+				DF8D8ECD0CE27C27E1491CE17DE68078 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = TCommon;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3CF561C4F709970A7E6B3518D6A67B84 /* Development Pods */,
+				1A68C3C2047E1918805E7C6FE5C25D9A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F1751B03346D7F3FA2E241F30B3178E3 /* Products */,
 				3C6D0C57409781204381E08A51BDBD0C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F0B8DC81D024C6173B1187E3BE7DEAC /* Pod */ = {
+		8CAACFF1F60AF15A403D60DB55523599 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1D5B3D580505F13F60452EF4362E6400 /* LICENSE */,
-				6FF775FF1FA64EABFE0BE099311FE328 /* README.md */,
-				5F2D10D56DAFB4A3E823C2BB7721E824 /* TCommon.podspec */,
+				28F3907301C76A2C627B60AA532F42A7 /* LICENSE */,
+				E2E3D79177BA7B8160281E285F65B5C4 /* README.md */,
+				EC4EC9B882C62D9CAED00A673FFA1D65 /* TCommon.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -213,6 +199,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DF8D8ECD0CE27C27E1491CE17DE68078 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8506EECE556378B1FAA1EEF06C6E0 /* Info.plist */,
+				531D861CA4EDBE9D55EF6EEA4FDDC248 /* TCommon.modulemap */,
+				9E0FB34EC74AE05F84703874BD2E9EC1 /* TCommon.xcconfig */,
+				2AD9055125A5C247477D4A6E93C18231 /* TCommon-dummy.m */,
+				A7DDB0DFB991EE720740A6B369AA976D /* TCommon-prefix.pch */,
+				72C71CB36840366D9E09229BF30D8680 /* TCommon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TCommon";
+			sourceTree = "<group>";
+		};
 		F1751B03346D7F3FA2E241F30B3178E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,11 +226,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AE45B41A5F34A3EFF8CD1A555214933 /* Headers */ = {
+		84E0A6F29F1F7BE3CF28C785849D159A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16143C7A8DC8AD7327B216E215BAC277 /* TCommon-umbrella.h in Headers */,
+				BE61EDCAF81A5CC6534E3FE72EADC9D4 /* PhotoManager.h in Headers */,
+				D429A6DE1538F25C99303FC5FBDEF744 /* TCommon-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4EA54848B3783E6A788A916F8275744 /* Pods-TCommon_Example-umbrella.h in Headers */,
-				91397FD820EA5378004017B1 /* PhotoManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +275,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FF2896BF6C14AC3AD74DA8C868F02CD /* Build configuration list for PBXNativeTarget "TCommon" */;
 			buildPhases = (
-				7175F0E1E64A370A672B7109FE5C15BF /* Sources */,
+				0BDA2B9E4511F090FA61214CD4E367F2 /* Sources */,
 				3FCC2017158AADEDD620BF5E3D3F7C8F /* Frameworks */,
-				3AE45B41A5F34A3EFF8CD1A555214933 /* Headers */,
+				84E0A6F29F1F7BE3CF28C785849D159A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -335,11 +335,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0BDA2B9E4511F090FA61214CD4E367F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E973C824B5D129F158DC991C2660C7C4 /* PhotoManager.m in Sources */,
+				D23EE15872378B353F156677FF90C8A1 /* TCommon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13E4947D9F5EFD26A3087C0D4F8F5881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91397FD720EA5378004017B1 /* PhotoManager.m in Sources */,
 				E3F90DB2CB7F0DE27DC97BF91BE8703A /* Pods-TCommon_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,14 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B83382BAF03EBCBFFD3ADFD2CAB560 /* Pods-TCommon_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7175F0E1E64A370A672B7109FE5C15BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D41A41262C7A0EF01EFC957C1AA43A6 /* TCommon-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +374,7 @@
 /* Begin XCBuildConfiguration section */
 		143EB8AF1BBA98C36FFD1F4CDA46D1F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EDE0365D8B8AFC8532F65837E26DCD /* TCommon.xcconfig */;
+			baseConfigurationReference = 9E0FB34EC74AE05F84703874BD2E9EC1 /* TCommon.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -557,7 +557,7 @@
 		};
 		9D803644EB66EF540DBDEB62D52612A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EDE0365D8B8AFC8532F65837E26DCD /* TCommon.xcconfig */;
+			baseConfigurationReference = 9E0FB34EC74AE05F84703874BD2E9EC1 /* TCommon.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

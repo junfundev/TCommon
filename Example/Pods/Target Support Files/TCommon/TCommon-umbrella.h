@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PhotoManager.h"
 
 FOUNDATION_EXPORT double TCommonVersionNumber;
 FOUNDATION_EXPORT const unsigned char TCommonVersionString[];

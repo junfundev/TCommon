@@ -1,9 +1,9 @@
 {
   "name": "TCommon",
   "version": "0.1.0",
-  "summary": "A short description of TCommon.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/846428108@qq.com/TCommon",
+  "summary": "TCommon",
+  "description": "TCommon测试组件",
+  "homepage": "https://github.com/junfunlee/TCommon",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "846428108@qq.com": "13816147439@163.com"
   },
   "source": {
-    "git": "https://github.com/846428108@qq.com/TCommon.git",
+    "git": "https://github.com/junfunlee/TCommon.git",
     "tag": "0.1.0"
   },
   "platforms": {
