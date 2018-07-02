@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TCommon_Example' do
+  pod 'TCommon', :path => '../'
+
+  target 'TCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
