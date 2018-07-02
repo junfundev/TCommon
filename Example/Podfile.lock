@@ -1,0 +1,16 @@
+PODS:
+  - TCommon (0.1.0)
+
+DEPENDENCIES:
+  - TCommon (from `../`)
+
+EXTERNAL SOURCES:
+  TCommon:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TCommon: f8291cc3742e86f4fb0ef45a8cc89196a641b038
+
+PODFILE CHECKSUM: ca214c3f41f6b3380c95b499c3b595979e007fa6
+
+COCOAPODS: 1.4.0

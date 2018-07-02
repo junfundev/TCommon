@@ -1,0 +1,22 @@
+{
+  "name": "TCommon",
+  "version": "0.1.0",
+  "summary": "A short description of TCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/846428108@qq.com/TCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "846428108@qq.com": "13816147439@163.com"
+  },
+  "source": {
+    "git": "https://github.com/846428108@qq.com/TCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TCommon/Classes/**/*"
+}
